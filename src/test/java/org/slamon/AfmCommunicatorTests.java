@@ -141,7 +141,7 @@ public class AfmCommunicatorTests {
         Map<String, Object> taskData = new HashMap<String, Object>();
         taskData.put("time", 2.0);
 
-        assertEquals(testResult.toString(), "2015-02-17T22:19:41.620+02:00");
+        assertEquals(testResult, new DateTime("2015-02-17T22:19:41.620+02:00"));
         assertTrue(list.size() == 1);
         assertEquals(list.get(0).task_id, "TASK_UUID");
         assertEquals(list.get(0).task_type, "android-wait");

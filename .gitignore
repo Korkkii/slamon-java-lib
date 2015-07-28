@@ -11,3 +11,7 @@ hs_err_pid*
 
 # Build files
 build/
+
+# Idea files
+*.iml
+.idea/
